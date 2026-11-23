@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Политика конфиденциальности — Auto-Video</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { margin: 0; padding: 64px 24px; background: #0e1116; color: #e6e9ef;
+           font: 16px/1.7 -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 26px; margin: 0 0 6px; }
+    h2 { font-size: 17px; margin: 30px 0 8px; color: #cfd6e4; }
+    p, li { color: #b9c2d0; }
+    code { background: #161b24; border-radius: 4px; padding: 1px 5px; font-size: 14px; }
+    a { color: #ff4d6d; text-decoration: none; }
+    .muted { color: #7d8798; font-size: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Политика конфиденциальности</h1>
+  <p class="muted">Последнее обновление: 2026</p>
+
+  <h2>1. Где обрабатываются данные</h2>
+  <p>
+    Auto-Video работает полностью на компьютере пользователя. Видео, аудио,
+    субтитры и настройки не отправляются автору приложения и не загружаются ни на
+    какие серверы. Анализ, нарезка и рендер выполняются локально.
+  </p>
+
+  <h2>2. Что хранится на диске</h2>
+  <ul>
+    <li>Настройки приложения — <code>%APPDATA%\AutoVideo\config.json</code>.</li>
+    <li>Токены TikTok — <code>%APPDATA%\AutoVideo\tiktok.json</code>.</li>
+    <li>Логи — <code>%APPDATA%\AutoVideo\logs\</code>, ротация, только техническая информация.</li>
+    <li>Временные файлы рендера — удаляются после завершения.</li>
+  </ul>
+
+  <h2>3. Что уходит в TikTok</h2>
+  <p>
+    Только по вашему действию: видеофайл, выбранное описание с хештегами и уровень
+    приватности. Передача идёт напрямую с вашего компьютера на серверы TikTok по
+    API Content Posting. Обработка этих данных на стороне TikTok регулируется его
+    собственной политикой.
+  </p>
+
+  <h2>4. Аналитика</h2>
+  <p>
+    Приложение не содержит телеметрии, счётчиков, рекламных SDK и не собирает
+    статистику использования.
+  </p>
+
+  <h2>5. Удаление данных</h2>
+  <p>
+    Удалите папку <code>%APPDATA%\AutoVideo</code> — настройки, логи и токены будут
+    стёрты. Отозвать доступ приложения к аккаунту можно в настройках безопасности
+    TikTok.
+  </p>
+
+  <h2>6. Дети</h2>
+  <p>
+    Приложение не предназначено для лиц младше 13 лет и не собирает данные о них.
+  </p>
+
+  <h2>7. Контакты</h2>
+  <p><a href="mailto:REPLACE_WITH_YOUR_EMAIL">REPLACE_WITH_YOUR_EMAIL</a></p>
+</main>
+</body>
+</html>
