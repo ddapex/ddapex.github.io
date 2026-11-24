@@ -1,2 +1,3 @@
 # Auto-VIO revoked keys — one id per line, anything after # is a note
 AV-7K2M-9QX4  # не продлил
+AV-QJMM-GXBL  # хуесос
