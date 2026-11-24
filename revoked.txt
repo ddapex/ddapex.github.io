@@ -1,6 +1,7 @@
 # Auto-VIO revoked keys - one id per line, anything after # is a note
 AV-2YG8-R5TL  # йцу
 AV-7K2M-9QX4  # не продлил
+AV-BSAM-2NJM
 AV-DESX-URCH  # хуесос
 AV-FBK9-X4M3
 AV-QJMM-GXBL  # хуесос
